@@ -1,0 +1,38 @@
+.body1 {
+    font-family: Arial, sans-serif;
+    background-color: #040929;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #000000, #011e38)
+}
+
+header {
+    color:white;
+}
+
+.education-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.education-item {
+    background: linear-gradient(145deg, #ecf9fb, #d9f2f5);
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+    border: 2px solid #3fc7a3;
+}
+
+h1, h2 {
+    text-align: center;
+}
+nav {
+    height: 7vh; /* or any large value */
+}

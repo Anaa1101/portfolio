@@ -1,0 +1,73 @@
+.body_project {
+    background: linear-gradient(135deg, #000000, #011e38); 
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px; /* increased padding */
+    text-align: center;
+    transition: transform 0.3s;
+    min-height: 280px; /* optional: consistent sizing */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin: 0 0 15px; /* slightly increased margin */
+    color: #333;
+    font-size: 1.4rem; /* larger heading */
+}
+
+.card p {
+    color: #666;
+    margin-bottom: 20px; /* slightly increased space */
+    font-size: 1rem; /* slightly larger font */
+}
+
+.card button {
+    background: linear-gradient(135deg, #3a8df8, #3fc7a3);
+    color: white;
+    border: none;
+    padding: 12px 24px; /* increased padding */
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.95rem; /* slightly larger text */
+}
+
+.card button:hover {
+    background-color: #3fc7a3;
+}
+
+nav {
+    height: 7vh;
+}
+
+.footer {
+    margin-top: auto;
+    width: 100%;
+}

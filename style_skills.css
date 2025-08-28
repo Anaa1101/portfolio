@@ -1,0 +1,27 @@
+.body_home {
+    background: linear-gradient(135deg, #000000, #011e38);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2.text-pink {
+    background: linear-gradient(135deg, #3a8df8, #3fc7a3);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.skill-container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.progress-bar.bg-pink {
+    background: linear-gradient(135deg, #3a8df8, #3fc7a3);;
+}
